@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+.calculator, .withdraw-box {
+  background: white;
+  width: 320px;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+  padding: 20px;
+}
+.screen {
+  font-size: 24px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ddd;
+  padding: 10px;
+  text-align: right;
+  min-height: 40px;
+}
+.btn-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 15px 0;
+  font-size: 22px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #0088cc;
+  color: white;
+}
+.withdraw-toggle-btn {
+  background: #ff9800;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+.withdraw-box {
+  display: none;
+  text-align: left;
+}
+input, select {
+  width: 95%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
